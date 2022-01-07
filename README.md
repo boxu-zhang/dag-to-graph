@@ -1,5 +1,5 @@
 # Introduction
-This project gets inspired by [this](https://stackoverflow.com/questions/8877767/graphically-plotting-lisp-code) stackoverflow ticket. When I tried to explain the DAG of instruction selection pattern in LLVM, it's not intuitive if we just look at the TD code. So, I decide to make a way to draw a picture from the DAG string. It's it
+This project gets inspired by [this](https://stackoverflow.com/questions/8877767/graphically-plotting-lisp-code) stackoverflow ticket. When I tried to explain the DAG of instruction selection pattern in LLVM, it's not intuitive if we just look at the TD code. So, I decide to make a way to draw a picture from the DAG string. 
 
 # Preparation
 You must install racket first to run it. See: https://download.racket-lang.org/
