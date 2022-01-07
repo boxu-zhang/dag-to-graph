@@ -5,7 +5,7 @@ This project gets inspired by [this](https://stackoverflow.com/questions/8877767
 You must install racket first to run it. See: https://download.racket-lang.org/
 
 # Usage
-Please note that we must use \' not \" in the command line to encapsulate the DAG string, using \" will cause the command line replace all field start with $ to environment variable.
+Please note that we must use \' not \" in the command line to encapsulate the DAG string, using \" will cause the command line to replace all fields started with $ to environment variables.
 ```
 # correct, using \' to encapsulate the DAG string
 ./main.rkt '(MACHINE_INSTR $src0, $srsrc, $soffset, (as_i16imm $offset), (as_i32imm $kop))'
