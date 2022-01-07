@@ -1,6 +1,9 @@
 # Introduction
 This project gets inspired by [this](https://stackoverflow.com/questions/8877767/graphically-plotting-lisp-code) stackoverflow ticket. When I tried to explain the DAG of instruction selection pattern in LLVM, it's not intuitive if we just look at the TD code. So, I decide to make a way to draw a picture from the DAG string. It's it
 
+# Preparation
+You must install racket first to run it. See: https://download.racket-lang.org/
+
 # Usage
 Please note that we must use \' not \" in the command line to encapsulate the DAG string, using \" will cause the command line replace all field start with $ to environment variable.
 ```
@@ -32,3 +35,6 @@ node_0 -- node_5_0;
 node_5_0 -- node_5_1;
 }
 ```
+
+# Screenshot
+![screenshot.jpg](./screenshot.jpg)
