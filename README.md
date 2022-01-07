@@ -10,7 +10,7 @@ Please note that we must use \' not \" in the command line to encapsulate the DA
 # correct, using \' to encapsulate the DAG string
 ./main.rkt '(MACHINE_INSTR $src0, $srsrc, $soffset, (as_i16imm $offset), (as_i32imm $kop))'
 
-# do not using \" like the following command
+# do not use \" like the following command
 ./main.rkt "(MACHINE_INSTR $src0, $srsrc, $soffset, (as_i16imm $offset), (as_i32imm $kop))"
 ```
 
